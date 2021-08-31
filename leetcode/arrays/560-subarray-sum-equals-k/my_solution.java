@@ -11,10 +11,7 @@ class Solution {
                 sum += nums[j];
                 
                 if(sum == k)
-                    count++;
-                
-                if(sum > k)
-                    break;   
+                    count++; 
             }
         }
         return count;
