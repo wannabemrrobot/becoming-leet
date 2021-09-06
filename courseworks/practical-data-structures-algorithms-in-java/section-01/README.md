@@ -7,7 +7,7 @@
 
 ## Java Behind The Scenes
 
-- There are two main types of memory associated with DS.
+- There are two main types of memory specially associated with programs running, in Java.
 - They are Heap and Stack
 - In Java, instructions needs to be within the named blocks.
 - These are called as Methods.
