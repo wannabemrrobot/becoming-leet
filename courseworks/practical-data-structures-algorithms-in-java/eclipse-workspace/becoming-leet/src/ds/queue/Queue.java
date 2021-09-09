@@ -26,11 +26,11 @@ public class Queue {
 		}
 		
 		rear++;
-		System.out.println("rear incremented: " + rear);
+//		System.out.println("rear incremented: " + rear);
 		this.queueArray[rear] = element;
-		System.out.println("element added to list: " + element);
+//		System.out.println("element added to list: " + element);
 		totalItems++;
-		System.out.println("Total number of items incremented: " + totalItems);
+//		System.out.println("Total number of items incremented: " + totalItems);
 	}
 	
 	public long remove() {
@@ -67,6 +67,7 @@ public class Queue {
 //		for(int i=front; i<=rear; i++) {
 //			System.out.print(this.queueArray[i] + " ");
 //		}
+		
 		for(int i=0; i<this.queueArray.length; i++) {
 			System.out.print(this.queueArray[i] + " ");
 		}
