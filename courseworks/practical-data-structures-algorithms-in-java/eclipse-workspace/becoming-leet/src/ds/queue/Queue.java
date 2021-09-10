@@ -58,7 +58,7 @@ public class Queue {
 	}
 	
 	public boolean isFull() {
-		return (totalItems == maxQueueSize)
+		return (totalItems == maxQueueSize);
 	}
 	
 	public void viewQueue() {
