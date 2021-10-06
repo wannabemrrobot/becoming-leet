@@ -24,3 +24,16 @@ public class recursionlinearsearch {
 		return -1;
 	}
 }
+
+// OUTPUT: 
+
+//index searched: 0
+//index searched: 1
+//index searched: 2
+//index searched: 3
+//4
+
+// Here, 4 is the resultant index. By means of recursion, the result 4 is actually returned to the
+// method which invoked it, which is the method that resulted [index searched: 2], which inturn returned
+// to the method which invoked it. Finally, the result was printed in the last method which is invoked.
+
