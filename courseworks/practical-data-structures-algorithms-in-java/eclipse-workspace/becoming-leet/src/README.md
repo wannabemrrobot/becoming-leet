@@ -40,7 +40,7 @@
   - Now, for the size 10, we have iterations of number 38980.
   - The dominating term is that accounts the most is n^3.
   - Thus, this algorithm is going to scale cubic and this is how instructions are approximately calculated.
-  - 
+
 #### Logarithmic algorithms
 - Take a look at the below numbers
 - For binary search,
