@@ -31,4 +31,38 @@
     - `Cubic Growth Rate - O(n^3)`
     - `Constant Growth Rate - O(1)`
     - `Exponential Growth Rate - O(n^n)`
+- ## Big O notation - Extended
+  - As we've seen in the Binary Search, it has `logarithm of n` time complexity.
+  - Consider a cubic growth rate algorithm.
+  - 37(n^3) + 18(n^2) + 180 is the mathematical representation of the algorithm.
+  - Now, for input of size 1, we have 235 instructions executed.
+  - Now, for input of size 5, we have 5225 instructions executed.
+  - Now, for the size 10, we have iterations of number 38980.
+  - The dominating term is that accounts the most is n^3.
+  - Thus, this algorithm is going to scale cubic and this is how instructions are approximately calculated.
 
+#### Logarithmic algorithms
+- Take a look at the below numbers
+- For binary search,
+
+| Input size(n) | Steps to reach solution(log n) |
+| ----------- | ----------- |
+| 10     | 4      |
+| 100   | 7        |
+| 1000   | 10        |
+| 10000   | 14        |
+| 100000  | 17        |
+| 1000000   | 20        |
+| 10000000   | 24        |
+| 100000000   | 27        |
+| 1000000000   | 30        |
+
+When using logarithmic algorithms, the steps are calculated by adding the number of times you divide the input size by 2, to get closer to 1.
+
+**For eg:**  
+For input size of 100,  
+100/2=50=> 50/2=25=> 25/2=12.5=> 12.5/2=6.25=> 6.25/2=3.125=> 3.125/2=1.5625=> 1.5625/2=0.78125   ======>  7 steps
+
+This is how, steps or instructions for the given input size is calculated for logarithmic algorithms.
+NOTE: It's log base 2, and not log base 10. We divide the input size by 2, so its log base 2.
+Also, Binary search is the best algorithm to search for an element in the sorted array.
