@@ -1,0 +1,15 @@
+class Solution {
+    public boolean containsDuplicate(int[] nums) {
+        // my bruteforce approach
+        for(int i=0; i<nums.length-1; i++) {
+            for(int j=i+1; j<nums.length; j++) {
+                if(nums[i] == nums[j]) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+}
+
+// my bruteforce approach gave me time limit exceeded approach
