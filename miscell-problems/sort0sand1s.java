@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                            Online Java Debugger.
-                Code, Run and Debug Java program online.
-Write your code in this editor and press "Debug" button to debug program.
-
-*******************************************************************************/
-
 public class sort0sand1s
 {
 	public static void main(String[] args) {
