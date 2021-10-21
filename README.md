@@ -15,3 +15,7 @@ Practicing Data Structures! 'Cause why not!?  ; )
 - [387 - First Unique Characters In String](./leetcode/strings/387-first-uniq-char-in-string/)
 - [560(TLE) - Subarray Sum Equals K](./leetcode/arrays/566-reshape-the-matrix/)
 - [566 - Reshape the Matrix](./leetcode/arrays/566-reshape-the-matrix/)
+
+### Miscellaneous Problems
+- [Snake Number Pattern Printing](./leetcode/../miscell-problems/snake-pattern.java)
+- [sort 0's and 1's in an array](./leetcode/../miscell-problems/sort0sand1s.java)
