@@ -1,5 +1,7 @@
 # becoming-leet
 Practicing Data Structures! 'Cause why not!?  ; )
+ 
+[Notes - About various approach dumps and DSA](./notes.md)
 
 ### LeetCode
 - [01 - Two Sums](./leetcode/arrays/01-two-sum/)
