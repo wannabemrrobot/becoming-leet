@@ -1,5 +1,5 @@
 # becoming-leet
-Practicing Data Structures! 'Cause why not!?  ; )
+Fuck DS, crack it!
  
 [Notes - About various approach dumps and DSA](./notes.md)
 
